@@ -1,0 +1,7 @@
+Feature: Login
+  Scenario: Login successfully
+    Given I am at Login Page
+    When insert valid email
+    And insert valid password
+    And click to login
+    Then I should see the Home Page
